@@ -78,6 +78,7 @@ Ans: x = int(input("Enter a numner to check odd or even: "))
     print("Odd no")
 
 Q18. What are boolean operator?
+Ans: The logical opearators are also known as boolean operators. Ex: and, or, not
 
 Q19. What will the output of the following?
 ```
@@ -91,18 +92,40 @@ True and False and True
 ```
 
 Q20. What are conditional statements in Python?
+Ans: It is used to perform actions/execute statements based on some condition which evaluates to True or False. Ex: if, else, elif, switch
 
 Q21. What is use of 'if', 'elif' and 'else' keywords?
+Ans: If: It used used to check the condition is true or false, if condition is true then statements executes and if it is false then else condition executes. If there are multiple conditions then we use elif, if first if fails then it check the elif condition and so on... if none of the if and elif matches then it executes the else condition statements.
 
 Q22. Write a code to take the age of person as an input and if age >= 18 display "I can vote". If age is < 18 display "I can't vote".
+Ans: age = int(input("Enter your age : "))
+     if age>=18:
+          print("I can vote")
+     else:
+          print("I can't vote")
 
 Q23. Write a code that displays the sum of all the even numbers from the given list.
 ```
 numbers = [12, 75, 150, 180, 145, 525, 50]
 ```
-
+Ans: numbers = [12, 75, 150, 180, 145, 525, 50]
+     sum = 0
+     for num in numbers:
+          if num%2 == 0:
+               sum = sum + num
+     print("the sum of even no's is : ", sum)
 
 Q24. Write a code to take 3 numbers as an input from the user and display the greatest no as output.
+Ans: num1 = int(input("Enter no 1 : "))
+     num2 = int(input("Enter no 2 : "))
+     num3 = int(input("Enter no 3 : "))
+
+     if (num1 >= num2) and num1 >=num3:
+          print("num1 is greatest")
+     elif num2>=num3:
+          print("num2 is greatest")
+     else:
+          print("num3 is greatest")
 
 Q25. Write a program to display only those numbers from a list that satisfy the following conditions
 
@@ -114,3 +137,14 @@ Q25. Write a program to display only those numbers from a list that satisfy the 
 ```
 numbers = [12, 75, 150, 180, 145, 525, 50]
 ```
+Ans: 
+     numbers = [12, 75, 150, 180, 145, 525, 50]
+
+     for num in numbers:
+     if num%5 == 0:
+          if(num>150):
+               continue
+          if(num>500):
+               break
+          else:
+               print(num)
