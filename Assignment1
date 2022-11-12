@@ -1,0 +1,116 @@
+## Assignment Part-1
+Q1. Why do we call Python as a general purpose and high-level programming language?
+Ans: Python is general purpose language because using python we can do anything like Web Development, Software development, Machine Learning, Web Scraping etc., Python is not for any spefic task.
+It is also high level laguage because it is programmer friendly and written in English type language which any user can easily understand. Also , they require compiler/interpreter to comvert high level to low level language.
+
+Q2. Why is Python called a dynamically typed language?
+Ans: Beacuse type checking happens at runtime in Python.
+
+Q3. List some pros and cons of Python programming language?
+Ans: Pros:
+    a) Python free, open source and Easy to learn.
+    b) Large collection of libraries.
+    c) Portable : It can be run on any system.
+    d) Dynamically typed : Assigns the data type at runtime.
+    Cons:
+    a) Slow execution
+    b) It consumes high memory
+    c) Due to dynamically typed, errors can come at runtime.
+
+Q4. In what all domains can we use Python?
+Ans: Web Development, Game Development, Mobile development, Machine learning, AI, Data Science, Data Analytics & Data Visualtization, Desktop GUI, Web Scraping, Embedded systems.
+
+Q5. What are variable and how can we declare them?
+Ans: Variables are containers to store values. In python, No need to declare a variable with some data type beacause variable is created once you assign the value.
+
+Q6. How can we take an input from the user in Python?
+Ans: By using input() function.
+
+Q7. What is the default datatype of the value that has been taken as an input using input() function?
+Ans: String
+
+Q8. What is type casting?
+Ans: Method to convert one type to another type.
+
+Q9. Can we take more than one input from the user using single input() function? If yes, how? If no, why?
+Ans: Yes, we can take multple input from user by using split() function.
+     Ex: x, y = input("Enter x and y : ").split()    [Note: If a separator is not provided then any white space is a separator]
+
+
+Q10. What are keywords?
+Ans: Keywords that have specific meaning and restrictions as how they should be used.
+
+Q11. Can we use keywords as a variable? Support your answer with reason.
+Ans: NO, Because keywords are having specific meaning in Python. So, it can't be used as to identify a variable, function, class, module, etc.
+
+Q12. What is indentation? What's the use of indentaion in Python?
+Ans: It refers to the space at the beginning of a code line. It is used to indicate block of code.
+
+Q13. How can we throw some output in Python?
+Ans: By using print() function.
+
+Q14. What are operators in Python?
+Ans: a) Arithmetic Operators [+, -, *, /, %, **, //]
+     b) Comparison Operators
+     c) Logical Operators
+     d) Bitwise Operators
+     e) Assignment Operators
+     f) Identity Operators
+     g) Membership Operators
+
+Q15. What is difference between / and // operators?
+Ans: / = Float division
+     // = Integer Division
+
+Q16. Write a code that gives following as an output.
+```
+iNeuroniNeuroniNeuroniNeuron
+```
+Ans: print("```")
+     print("ineuron"*4)
+     print("```")
+     
+Q17. Write a code to take a number as an input from the user and check if the number is odd or even.
+Ans: x = int(input("Enter a numner to check odd or even: "))
+     if(x%2 == 0):
+    print("Even no")
+     else:
+    print("Odd no")
+
+Q18. What are boolean operator?
+
+Q19. What will the output of the following?
+```
+1 or 0
+
+0 and 0
+
+True and False and True
+
+1 or 0 or 0
+```
+
+Q20. What are conditional statements in Python?
+
+Q21. What is use of 'if', 'elif' and 'else' keywords?
+
+Q22. Write a code to take the age of person as an input and if age >= 18 display "I can vote". If age is < 18 display "I can't vote".
+
+Q23. Write a code that displays the sum of all the even numbers from the given list.
+```
+numbers = [12, 75, 150, 180, 145, 525, 50]
+```
+
+
+Q24. Write a code to take 3 numbers as an input from the user and display the greatest no as output.
+
+Q25. Write a program to display only those numbers from a list that satisfy the following conditions
+
+- The number must be divisible by five
+
+- If the number is greater than 150, then skip it and move to the next number
+
+- If the number is greater than 500, then stop the loop
+```
+numbers = [12, 75, 150, 180, 145, 525, 50]
+```
